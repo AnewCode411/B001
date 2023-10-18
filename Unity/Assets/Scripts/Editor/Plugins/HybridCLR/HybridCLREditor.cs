@@ -7,7 +7,7 @@ namespace ET
 {
     public static class HybridCLREditor
     {
-        [MenuItem("HybridCLR/CopyAotDlls")]
+        [MenuItem("Tools/HybridCLR/CopyAotDlls")]
         public static void CopyAotDll()
         {
             BuildTarget target = EditorUserBuildSettings.activeBuildTarget;

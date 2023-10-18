@@ -12,7 +12,7 @@ namespace HybridCLR.Editor.BuildProcessors
 {
     public static class AddLil2cppSourceCodeToXcodeproj2022OrNewer
     {
-        //[MenuItem("HybridCLR/Modfiyxcode")]
+        //[MenuItem("Tools/HybridCLR/Modfiyxcode")]
         //public static void Modify()
         //{
         //    OnPostProcessBuild(BuildTarget.iOS, $"{SettingsUtil.ProjectDir}/Build-iOS");

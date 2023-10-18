@@ -44,7 +44,7 @@ namespace HybridCLR.Editor.Commands
             Debug.LogFormat("== output:{0} ==", outputFile);
         }
 
-        [MenuItem("HybridCLR/Generate/MethodBridge", priority = 101)]
+        [MenuItem("Tools/HybridCLR/Generate/MethodBridge", priority = 101)]
         public static void CompileAndGenerateMethodBridge()
         {
             BuildTarget target = EditorUserBuildSettings.activeBuildTarget;

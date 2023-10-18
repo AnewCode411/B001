@@ -18,7 +18,7 @@ namespace HybridCLR.Editor.Commands
     public static class ReversePInvokeWrapperGeneratorCommand
     {
 
-        [MenuItem("HybridCLR/Generate/ReversePInvokeWrapper", priority = 103)]
+        [MenuItem("Tools/HybridCLR/Generate/ReversePInvokeWrapper", priority = 103)]
 
         public static void CompileAndGenerateReversePInvokeWrapper()
         {

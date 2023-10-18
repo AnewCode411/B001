@@ -14,7 +14,7 @@ namespace HybridCLR.Editor.Commands
 {
     public static class StripAOTDllCommand
     {
-        [MenuItem("HybridCLR/Generate/AOTDlls", priority = 105)]
+        [MenuItem("Tools/HybridCLR/Generate/AOTDlls", priority = 105)]
         public static void GenerateStripedAOTDlls()
         {
             GenerateStripedAOTDlls(EditorUserBuildSettings.activeBuildTarget);

@@ -13,7 +13,7 @@ namespace HybridCLR.Editor.Commands
     public static class LinkGeneratorCommand
     {
 
-        [MenuItem("HybridCLR/Generate/LinkXml", priority = 100)]
+        [MenuItem("Tools/HybridCLR/Generate/LinkXml", priority = 100)]
         public static void GenerateLinkXml()
         {
             BuildTarget target = EditorUserBuildSettings.activeBuildTarget;

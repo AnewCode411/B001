@@ -12,7 +12,7 @@ namespace HybridCLR.Editor.Commands
         /// <summary>
         /// 按照必要的顺序，执行所有生成操作，适合打包前操作
         /// </summary>
-        [MenuItem("HybridCLR/Generate/All", priority = 200)]
+        [MenuItem("Tools/HybridCLR/Generate/All", priority = 200)]
         public static void GenerateAll()
         {
             BuildTarget target = EditorUserBuildSettings.activeBuildTarget;

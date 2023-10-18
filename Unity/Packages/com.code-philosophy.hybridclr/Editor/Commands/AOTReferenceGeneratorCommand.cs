@@ -14,7 +14,7 @@ namespace HybridCLR.Editor.Commands
     public static class AOTReferenceGeneratorCommand
     {
 
-        [MenuItem("HybridCLR/Generate/AOTGenericReference", priority = 102)]
+        [MenuItem("Tools/HybridCLR/Generate/AOTGenericReference", priority = 102)]
         public static void CompileAndGenerateAOTGenericReference()
         {
             BuildTarget target = EditorUserBuildSettings.activeBuildTarget;
